@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Frag",
+				"Fragment"
+			],
+			[
+				"property",
+				"property	New Property"
+			],
+			[
+				"ModelField",
+				"ModelChoiceField"
+			],
+			[
+				"avai",
+				"available"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/santiago/projects/tumblr/theme.html",
+			"settings":
+			{
+				"buffer_size": 7980,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"selected_items":
+		[
+			[
+				"codeintel",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"zencoding",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"prefer",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"",
+				"Preferences: Key Bindings - User"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/santiago/projects/storytell/core/tools.py",
+		"/home/santiago/projects/storytell/storytell/settings.py",
+		"/home/santiago/projects/storytell/core/managers.py",
+		"/home/santiago/projects/storytell/core/models.py",
+		"/home/santiago/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/santiago/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/santiago/projects/storytell/env/lib/python2.7/site-packages/django/db/models/fields/__init__.py",
+		"/home/santiago/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/santiago/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/santiago/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/home/santiago/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+		"/home/santiago/projects/storytell/.codeintel/config",
+		"/home/santiago/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+		"/home/santiago/projects/storytell/storytell/manage.py",
+		"/home/santiago/projects/storytell/manage.py",
+		"/home/santiago/projects/Big-Company/bigdeal/forms.py",
+		"/home/santiago/projects/Big-Company/bigdeal/models.py",
+		"/home/santiago/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/santiago/1test.html",
+		"/home/santiago/projects/libwhat/manage.py",
+		"/.config",
+		"/home/santiago/code/python/error/error.py",
+		"/home/santiago/.config/sublime-text-2/Packages/Color Scheme - Elegant/elegant.tmTheme",
+		"/home/santiago/projects/Big-Company/mercadopago/models.py",
+		"/home/santiago/projects/Big-Company/bigdeal/managers.py",
+		"/home/santiago/projects/Big-Company/mercadopago/auth_test.sh",
+		"/home/santiago/projects/Big-Company/mercadopago/create_test.sh",
+		"/home/santiago/projects/Big-Company/mercadopago/api.py",
+		"/home/santiago/projects/Big-Company/environ/lib/python2.7/site-packages/django_classy_tags-0.3.4.1-py2.7.egg-info/PKG-INFO",
+		"/home/santiago/projects/Big-Company/bigcompany/settings.py",
+		"/home/santiago/projects/Big-Company/mercadopago/views.py",
+		"/home/santiago/projects/Big-Company/utils/errors.py",
+		"/home/santiago/projects/Big-Company/utils/errors.py/untitled",
+		"/home/santiago/projects/Big-Company/mercadopago/tests.py",
+		"/home/santiago/projects/Big-Company/bigdeal/views.py",
+		"/home/santiago/projects/Big-Company/bigdeal/templates/userprofile/show.html",
+		"/home/santiago/projects/Big-Company/bigdeal/templates/partnerprofile/show.html",
+		"/home/santiago/projects/Big-Company/bigdeal/templates/deal/order.html",
+		"/home/santiago/projects/Big-Company/web/views.py",
+		"/home/santiago/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tabs",
+			"auto_complete",
+			"alt+shift+q",
+			"alt\\+q",
+			"alt+q",
+			"<<<<",
+			">>>>>>",
+			"final_price",
+			"[ ]*\\+",
+			"'",
+			"\"",
+			"RegionModelField",
+			"modelchoice",
+			"\n	",
+			"}\n",
+			"ctrl\\+x",
+			"ctrl\\+d",
+			"ctrl\\+x",
+			"ctrl+x",
+			"shift",
+			"k",
+			"timestamp =",
+			"verify(",
+			"verify",
+			"validationerror",
+			"[^e]time\\.",
+			"time.now",
+			"time.now()",
+			"time.",
+			"time",
+			"requery",
+			"BaseQuerySet",
+			"objects =",
+			"(QUerySet)",
+			"    \n",
+			"\n    ",
+			" \n",
+			"query",
+			"ctrl",
+			"command",
+			"k",
+			"side_bar",
+			"split",
+			"Unicode",
+			"ctrl+shift+up",
+			"ctrl+shift+a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\"",
+			"'",
+			"datetime.now",
+			"datetime.now()",
+			"QuerySet",
+			"(BaseQuerySet)"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/santiago/projects/tumblr/theme.html",
+					"settings":
+					{
+						"buffer_size": 7980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tools",
+				"core/tools.py"
+			],
+			[
+				"models",
+				"bigdeal/models.py"
+			],
+			[
+				"341",
+				"environ/lib/python2.7/site-packages/django_classy_tags-0.3.4.1-py2.7.egg-info/PKG-INFO"
+			],
+			[
+				"settings",
+				"bigcompany/settings.py"
+			],
+			[
+				"views",
+				"mercadopago/views.py"
+			],
+			[
+				"auth",
+				"mercadopago/auth_test.sh"
+			],
+			[
+				"create",
+				"mercadopago/create_test.sh"
+			],
+			[
+				"errors",
+				"utils/errors.py"
+			],
+			[
+				"mercadopago",
+				"mercadopago/views.py"
+			],
+			[
+				"mercadopago/",
+				"mercadopago/models.py"
+			],
+			[
+				"create_",
+				"mercadopago/create_test.sh"
+			],
+			[
+				"manager",
+				"bigdeal/managers.py"
+			],
+			[
+				"model",
+				"bigdeal/models.py"
+			],
+			[
+				"order",
+				"bigdeal/templates/deal/order.html"
+			],
+			[
+				"form",
+				"bigdeal/forms.py"
+			],
+			[
+				"userprofile",
+				"bigdeal/templates/userprofile/show.html"
+			],
+			[
+				"partnerpro",
+				"bigdeal/templates/partnerprofile/show.html"
+			],
+			[
+				"userprofile/",
+				"bigdeal/templates/userprofile/show.html"
+			],
+			[
+				"mana",
+				"bigdeal/managers.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true
+}

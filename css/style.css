@@ -1,0 +1,219 @@
+/* Theme CSS: */
+html {
+    background: url('{image:Background}');
+}
+
+body {
+    max-width: 620px;
+    margin: 10px auto;
+}
+
+a { text-decoration: none }
+
+header {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+
+    line-height: 10em;
+}
+
+header h1 {
+    color: white;
+    float: left;
+    margin-left: 10%;
+
+    font-size  : 300%;
+
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    padding: 0 1em;
+    border-left: 1px solid white;
+}
+
+header nav a:first-child { border-left: none }
+
+article:before, article:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+article {
+    padding-bottom: 1.3em;
+
+    margin-top   : 1em;
+    margin-bottom: 1em;
+}
+
+article h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: Sans-Serif;
+    text-align: left;
+    margin-bottom: 0.2em;
+}
+
+article h1 {
+    font-size: 190%;
+    margin-bottom: 0.3em;
+}
+
+article h2 { font-size: 150%; }
+
+article a {
+    color: #3ea3b5;
+    font-weight: bold;
+}
+
+article p {
+    text-indent: 1.8em;
+    margin-bottom: 0.8em;
+    line-height: 150%;
+}
+
+article img {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+article p img {
+    margin-left: -1.8em; /* Compensate text-indent */
+}
+
+article ul, article ol {
+    list-style: none;
+    margin: 0.8em 0 0.8em 1.8em;
+}
+
+article ul li, ol li {
+    margin-bottom: 0.4em;
+}
+
+article ul li:before {
+    content: '▸';
+    color: #3ea3b5; /* or whatever color you prefer */
+    margin-right: 0.7em;
+}
+
+article code {
+    background-color: ghostWhite;
+    border: 1px solid #ddd;
+    padding: 0 0.3em;
+    font-family: monospace;
+}
+
+article blockquote {
+    background-color: ghostWhite;
+    border: 1px solid #ddd;
+    padding: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+article time {
+    float: left;
+    width: 6%;
+
+    font-size: 70%;
+    padding: 1em 1%;
+    margin-top: 2em;
+    margin-right: 2%;
+
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 7px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+article time .day {
+    display: block;
+    font-size: 250%;
+}
+
+article time .dayname {
+    display: none;
+}
+
+article .content {
+    width: 82%;
+    padding: 1.5em 4% 0 4%;
+    float: left;
+    border-radius: 7px;
+    background-color: white;
+}
+
+article ul.tags {
+    text-align: right;
+    margin-top: 1em;
+    font-family: monospace;
+}
+
+article ul.tags li {
+    display: inline;
+    margin: 0 0.1em;
+}
+
+article ul.tags li:before { display:none; }
+
+article ul.tags li:not(:last-child):after {
+    content: ",";
+}
+
+article .quoted-source blockquote {
+    font-size: 150%;
+    line-height: 120%;
+    font-style: italic;
+}
+
+article .audio .player {
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+article .audio .caption {
+    float: left;
+    width: 50%;
+}
+
+article .chat {
+    width: 100%;
+    line-height: 200%;
+    border: 1px solid azure;
+}
+
+article .chat td {
+    padding-left: 0.5em;
+}
+
+article .chat tr:nth-child(even) {
+    background-color: ghostWhite;
+}
+
+article .chat .label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+.pagination a {
+    font-size: 200%;
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+.copyright {
+    font-family: monospace;
+}
+

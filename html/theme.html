@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>{Title}</title>
+
+    <meta name="image:Background" />
+
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+    <link href="http://raw.github.com/slezica/tumblr-blog/css/reset.css" type="text/css">
+    <link href="http://raw.github.com/slezica/tumblr-blog/css/style.css" type="text/css">
+
+    <style type="text/css">
+      {CustomCSS}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a class="title" href="/" title="Home"><h1>tales of code</h1></a>
+
+      {block:HasPages}
+      <nav>
+        <a href="/">Articles</a>
+        {block:Pages}<a href={URL}>{Label}</a>{/block:Pages}
+      </nav>
+      {/block:HasPages}
+    </header>
+
+    {block:Posts}
+    <article>
+
+      <time pubdate="pubdate">
+        <span class="dayname">{ShortDayOfWeek}</span>
+        <span class="day">{DayOfMonth}</span>
+        <span class="month">{ShortMonth}</span>
+        <span class="year">{Year}</span>
+      </time>
+
+      <div class="content">
+        {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+
+        {block:Text}
+        {Body}
+        {/block:Text}
+
+        {block:Photo}
+        <figure>
+          <img src="{PhotoURL-500}" alt="{PhotoAlt}" />
+
+          {block:Caption}<figcaption>{Caption}</figcaption>{/block:Caption}
+        </figure>
+        {/block:Photo}
+
+        {block:Photoset}
+        <figure>
+          {Photoset-500}
+
+          {block:Caption}<figcaption>{Caption}</figcaption>{/block:Caption}
+        </figure>
+        {/block:Photoset}
+
+        {block:Quote}
+        <div class="quoted-source">
+          <blockquote>"{Quote}"</blockquote>
+
+          {block:Source}
+          <p class="source">{Source}</p>
+          {/block:Source}
+        </div>
+        {/block:Quote}
+
+        {block:Link}
+        <a href="{URL}" class="link" {Target}>{Name}</a>
+
+        {block:Description}
+        <p class="description">{Description}</p>
+        {/block:Description}
+        {/block:Link}
+
+        {block:Chat}
+        <table class="chat">
+          {block:Lines}
+
+          <tr class="user_{UserNumber}">
+            <td class="label">{block:Label}{Label}{/block:Label}</td>
+            <td class="line" >{Line}</td>
+          </tr>
+
+          {/block:Lines}
+        </table>
+        {/block:Chat}
+
+        {block:Video}
+        <figure class="video">
+          {Video-500}
+
+          {block:Caption}<figcaption>{Caption}</figcaption>{/block:Caption}
+        </figure>
+        {/block:Video}
+
+        {block:Audio}
+        <div class="audio">
+          <div class="player">{AudioPlayerBlack}</div>
+
+          {block:Caption}
+          <div class="caption">{Caption}</div>
+          {/block:Caption}
+        </li>
+        {/block:Audio}
+
+
+        {block:HasTags}
+        <ul class="tags">
+          {block:Tags}
+          <li><a href="{TagURL}">{Tag}</a></li>
+          {/block:Tags}
+        </ul>
+        {/block:HasTags}
+      </div> <!-- /content -->
+    </article>
+    {/block:Posts}
+
+    {block:Pagination}
+    <div class="pagination">
+      {block:PreviousPage}
+      <a href="{PreviousPage}">Previous</a>
+      {/block:PreviousPage}
+
+      {block:NextPage}
+      <a href="{NextPage}">Next</a>
+      {/block:NextPage}
+    </div>
+    {/block:Pagination}
+
+    <footer>
+      <p class="copyright">Copyright &copy; {CopyrightYears} Santiago Lezica.</p>
+    </footer>
+
+    <script src="https://raw.github.com/slezica/tumblr-tools/master/tumblr-tools.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
